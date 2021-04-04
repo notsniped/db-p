@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f100;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(182, 181, 181);
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555;
+  }
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#2e19f3 0%, #1a8ae6 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#desc {
+    color: grey;
+}
+.profile {
+    border-radius: 75px;
+}
+#channel-list {
+    background-color: rgb(246, 246, 246);
+    border-radius: 7px;
+    margin: 10px;
+    border-color: grey;
+    border-width: 0.5px;
+    border-style: solid;
+}
+#profile-main {
+    height: 250px;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+#contact iframe {
+    width: 100%;
+}
+.contact_1 h3 {
+    display: inline;
+}
+.contact_1 a {
+    text-shadow: none;
+}
+#videos iframe {
+    width: 80%;
+}
+input {
+    background: grey;
+}
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}

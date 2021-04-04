@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Portofolio - Dhruv Bhat</title>
+        <link rel="shortcut icon" href="Logo.jpg">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!--Navigation bar code here-->
+        <nav class="navbar-inverse my_nav_bar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Dhruv Bhat</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#welcome">About</a></li> <!--Code from line 38 onwards...-->
+                    <li><a href="#videos">Videos</a></li> <!--Code from line 48 onwards...-->
+                    <li><a href="#work">Work</a></li> <!--Code from line 59 onwards...-->
+                    <li><a href="#writings">Writings</a></li> <!--Code from line ## onwards...-->
+                    <li><a href="#aboutMe">Blog</a></li> <!--Code from line ## onwards...-->
+                    <li><a href="#contact">Connect</a></li> <!--Code from line ## onwards...-->
+                </ul>
+            </div>
+        </nav>
+        <section id="welcome">
+            <!--Describe about myself-->
+            <img src="Fortnite Shoddy.png" id="profile-main" class="profile img-circle">
+            <h1>
+                I Am 
+                <br>
+                <span id="name">Dhruv Bhat</span>
+            </h1>
+            <h2>Coder, 8<sup>th</sup> grade student and technology geek.</h2>
+        </section>
+        <section id="bio">
+            <!--About myself-->
+            <h1>A Little About Me:</h1>
+            <div class="line"></div>
+            <p>Hi! I am Dhruv Bhat. I study at Ryan International School & I am in 7th Grade. I was born in 2007 and brought up in the USA, until 2016 when I moved to India to continue my schooling. After a while, I got my intrest in computers and coding. I used to teach myself about computers after completing my school's homework. That was when I was in 3rd Grade. When I finished my 6th grade, I was introduced to WhiteHat Junior clases. These classes, along with my knowledge in coding has brought a lot of intrest in the computers side of me. Now, every evening, after completing my homework, I practice my coding and I also take the classes every weekend. <br><br> To be honest with you, I really enjoy coding, and you can too! <br> If you want to join WhiteHat Junior, please use my referral link.
+                <br>
+                <br>
+                <a class="whjr" href="https://whjr.co/SdGzr" title="When you sign up using this link, I will get cool rewards and you will also get special benefits. What are you waiting for?" target="_blank">https://whjr.co/SdGzr</a>
+            </p>
+        </section>
+        <hr>
+        <section id="videos">
+            <!--Promote my media-->
+            <h1>Videos</h1>
+            <div class="line"></div>
+            <br>
+            <div id="channel-list">
+                <br>
+                <img src="https://yt3.ggpht.com/ytc/AAUvwnjfZfZUfQI8LqXTyet2IYuoQPX3-FZNAjvle9As=s88-c-k-c0x00ffffff-no-rj" class="profile">
+                <h2>LongCircuit YT</h2>
+                <label id="desc">On this channel, I feature stuff regarding electronic circuits. Batteries, LEDs, and a lot of wires.</label>
+                <br>
+                <button onclick="redirect()" class="btn btn-primary">Visit Channel</button>
+                <br>
+                <hr>
+                <br>
+                <img src="https://yt3.ggpht.com/ytc/AAUvwnjfZfZUfQI8LqXTyet2IYuoQPX3-FZNAjvle9As=s88-c-k-c0x00ffffff-no-rj" class="profile">
+                <h2>snipe_blaze</h2>
+                <label id="desc">LongCircuit's secondary channel. I publish random stuff here.</label>
+                <br>
+                <button onclick="redirect1()" class="btn btn-primary">Visit Channel</button>
+                <br>
+                <br>
+            </div>
+            <br>
+            <iframe src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1" height="500" style="border-radius: 5px;"> </iframe>
+            <br>
+            <br>
+            <iframe height="500" src="https://www.youtube.com/embed/J8hzJxb0rpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video2" style="border-radius: 5px;"></iframe>
+        </section>
+        <hr>
+        <section id="work" style="width: 100%;">
+            <!--Show-off my work (but don't actually show off!)-->
+            <h1>Work</h1>
+            <div class="line"></div>
+            <iframe class="work_iframe" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0" style="width: 80%; margin: 10px;"></iframe>
+        </section>
+        <hr>
+        <section id="writings">
+            <h1>Writings</h1>
+            <div class="line"></div>
+            <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a>
+            <br>
+            <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
+        </section>
+        <hr>
+        <section id="contact">
+            <h1>Connect</h1>
+            <div class="line"></div>
+            <br>
+            <div id="discord" class="container">
+                <iframe src="https://discord.com/widget?id=738292398169522266&theme=dark" width="80%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+            <br>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+            <!--ADD bootstrap classes to contact_1 div -->
+            <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <a href="mailto:bhatdhruva6@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;bhatdhruva6@gmail.com</h5>
+                </a> 
+                <a href="#"> 
+                    <h5><i class="fa fa-reddit" ></i>&nbsp;&nbsp;snipe_blaze</h5>
+                </a> 
+            </div>
+        <!--form code here-->
+        <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <form><span>Name: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" required></form>
+        </div>
+        </section>
+    </body>
+</html>
